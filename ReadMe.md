@@ -55,15 +55,16 @@ Created an awesome and generic ReadMe.md file; which can be utilize for future e
 </h4>
 
 <p float="center">
-    <img src="../Assets/Media/misc/IAB.png" alt="Application Demo." align="left" height="45%" width="45%"/>
-        <ol><a href="https://drive.google.com/file/d/1mPa_gXlxk7pZr4Ks3kBNk9Atakoykmsp/view">Part One</a></ol>
-        <ol><a href="https://drive.google.com/file/d/145_rDjGIJZWTxObi5AFE6oSGq3sNgbEH/view">Part Two</a></ol>
-    </img>
-    <img src="../Assets/Media/misc/socialPreview.jpeg" alt="Application Demo." align="right" height="45%" width="45%"/>
-        <ol><a href="https://drive.google.com/file/d/1f-RDGCSj9yTMibKaGBSLW9K10wY8RxpY/view">Part One</a></ol>
-        <ol><a href="https://drive.google.com/file/d/1AQVuYY_kPW5NQ9Z3i3nZZevw1S7xsrsz/view">Part Two</a></ol>
-        <ol><a href="https://drive.google.com/file/d/1GXI_co-9gZFj4ZzhzjWNYzTMkV5VbXnv/view">Part Three</a></ol>
-    </img>
+    <img src="/assets/media/mySchema.png" alt="Building My Schema" align="left" height="45%" width="45%"/>
+    <img src="/assets/media/mySeed.png" alt="Building My Seed" align="right" height="45%" width="45%"/>
+</p>
+
+<p>
+    <span align="left"><ol><a href="https://drive.google.com/file/d/1mPa_gXlxk7pZr4Ks3kBNk9Atakoykmsp/view">Part One</a></ol>
+    <ol><a href="https://drive.google.com/file/d/145_rDjGIJZWTxObi5AFE6oSGq3sNgbEH/view">Part Two</a></ol></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <span align="right"><ol><a href="https://drive.google.com/file/d/1f-RDGCSj9yTMibKaGBSLW9K10wY8RxpY/view">Part One</a></ol>
+    <ol><a href="https://drive.google.com/file/d/1AQVuYY_kPW5NQ9Z3i3nZZevw1S7xsrsz/view">Part Two</a></ol>
+    <ol><a href="https://drive.google.com/file/d/1GXI_co-9gZFj4ZzhzjWNYzTMkV5VbXnv/view">Part Three</a></ol></span>
 </p>
 
 ## References
