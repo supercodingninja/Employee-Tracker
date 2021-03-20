@@ -24,7 +24,7 @@ CREATE TABLE role (
     salary DECIMAL,
     --   * **department_id** -  INT to hold reference to department role belongs to
     department_id INT
-)
+);
 
 -- * **employee**:
 CREATE TABLE employee (
@@ -38,4 +38,4 @@ CREATE TABLE employee (
     role_id INT,
     --   * **manager_id** - INT to hold reference to another employee that manages the employee being Created. This field may be null if the employee has no manager
     manager_id INT
-)
+);
