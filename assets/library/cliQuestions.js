@@ -1,8 +1,6 @@
 const myDB = require ('./config/orm.js'); // I NEED TO CHECK THIS THOUGHT, AND ROUTE. //
 
-
 // Declarations by functions. //
-
 // Department Table. //
 const findDpt = async () => {
             
@@ -222,7 +220,25 @@ module.exports = {
             Mgr(),
             emp()
         ]
-    }
+    },
+
+    getEmp () {
+        return [emp()]
+    },
 
     // Still need to figure out delete. //
+    Delete () {
+        return {
+            name: 'Delete',
+            type: 'confirm',
+            message: 'Are you sure you want to delete selection (possible data loss with all associated with selection)?',
+            choices: [
+                'DELETE',
+                'Take no action; and complete application.',
+                'Quit application; and do not save changes.'
+            ]
+        }
+    }
 };
+
+// I am using these CLI questions as a library of sorts; so I will need to create a function to my application.  I will do this in my app.js file. //
