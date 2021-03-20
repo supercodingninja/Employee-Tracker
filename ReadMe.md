@@ -1,6 +1,6 @@
 # Employee-Tracker 
 ##### ![Badge](https://img.shields.io/badge/GitHub-Pro%20%20%20-blue)&nbsp;![Badge](https://img.shields.io/badge/GitHub-Arctic%20Code%20Vault%20Contributor-orange)&nbsp;<a href="https://github.com/supercodingninja" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg" alt="discoverfrederickthomas" height="30" width="30" /></a>&nbsp;<a href="https://linkedin.com/in/discoverfrederickthomas" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="discoverfrederickthomas" height="30" width="30"/></a>&nbsp;<a href="mailto:SuperCodingNinja@outlook.com" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/microsoftoutlook.svg" alt="supercodingninja" height="30" width="30"/></a>&nbsp;<a href="tel:+1919-525-0548" target="blank"><img align="center" src="Assets/Media/icons/iconfinder_device-iPhone-smartphone-vertical-glyph_763248.png" alt="Call Frederick" height="30" width="30"/></a>&nbsp;<a href="https://www.youtube.com/playlist?list=PLnxMwdxjTgTEN-xRODXLJ6sI5hgz1lFbu" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/youtube.svg" alt="# discoverfrederickthomas" height="30" width="30"/></a>&nbsp;<a href="https://fb.com/supercodingninja" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/facebook.svg" alt="supercodingninja" height="30" width="30"/></a>&nbsp;<a href="https://codepen.io/supercodingninja" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/codepen.svg" alt="supercodingninja" height="30" width="30"/></a>&nbsp;<a href="https://dev.to/supercodingninja" target="blank"><img align="center" src="Assets/Media/icons/dev_to_icon_130961.png" alt="supercodingninja" height="30" width="30"/></a>
-#### <i>TemplateEngine_TeamGenerator</i> © 2021 All Rights Reserved.  MIT All material must be cited or credited, when using material (free to use).
+#### <i>Employee-Tracker</i> © 2021 All Rights Reserved.  MIT All material must be cited or credited, when using material (free to use).
 
 ## Table of Contents
 * [Repository Description](#Repository)
@@ -81,7 +81,7 @@ Make it a point to tackle new code, weekly (at least, periodaclly); and break it
 ## License
 ![MIT](https://img.shields.io/badge/License-MIT-blue)
 
-<i>TemplateEngine_TeamGenerator</i><b>Copyright<b>  ©  2021 Frederick Thomas, [Super Coding Ninja™](https://github.com/supercodingninja).
+<i>Employee-Tracker</i><b>©</b>  2021 Frederick Thomas, [Super Coding Ninja™](https://github.com/supercodingninja).
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
