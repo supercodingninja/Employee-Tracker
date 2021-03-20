@@ -62,10 +62,10 @@ Created an awesome and generic ReadMe.md file; which can be utilize for future e
 <br><br><br><br><br><br><br><br><br><br>
 
 <p float="center">
-    <ol align="left"><a href="https://drive.google.com/file/d/1mPa_gXlxk7pZr4Ks3kBNk9Atakoykmsp/view)">Building My Schema (Thought-flow) pt. 1 of 2</a></ol>
-    <ol align="left"><a href="https://drive.google.com/file/d/145_rDjGIJZWTxObi5AFE6oSGq3sNgbEH/view)">Building My Schema (Thought-flow) pt. 2 of 2</a></ol>
     <ol align="right"><a href="https://drive.google.com/file/d/1f-RDGCSj9yTMibKaGBSLW9K10wY8RxpY/view">Developing The Seed.</a></ol>
+    <ol align="left"><a href="https://drive.google.com/file/d/1mPa_gXlxk7pZr4Ks3kBNk9Atakoykmsp/view)">Building My Schema (Thought-flow) pt. 1 of 2</a></ol>
     <ol align="right"><a href="https://drive.google.com/file/d/1AQVuYY_kPW5NQ9Z3i3nZZevw1S7xsrsz/view">Schema: Wait, what about my Decimal?!</a></ol>
+    <ol align="left"><a href="https://drive.google.com/file/d/145_rDjGIJZWTxObi5AFE6oSGq3sNgbEH/view)">Building My Schema (Thought-flow) pt. 2 of 2</a></ol>
     <ol align="right"><a href="https://drive.google.com/file/d/1GXI_co-9gZFj4ZzhzjWNYzTMkV5VbXnv/view">Putting It All, Together (The Schema and Seed).</a></ol>
 </p>
 
