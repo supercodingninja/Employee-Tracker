@@ -59,22 +59,16 @@ Created an awesome and generic ReadMe.md file; which can be utilize for future e
     <img src="/assets/media/mySeed.png" alt="Building My Seed" align="right" height="45%" width="45%"/>
 </p>
 
-<span align="left">
-
 [Part One](https://drive.google.com/file/d/1mPa_gXlxk7pZr4Ks3kBNk9Atakoykmsp/view)
 
 [Part Two](https://drive.google.com/file/d/145_rDjGIJZWTxObi5AFE6oSGq3sNgbEH/view)
-</span>
-    
-<span align="right">
 
 [Part One](https://drive.google.com/file/d/1f-RDGCSj9yTMibKaGBSLW9K10wY8RxpY/view)
     
-
 [Part Two](https://drive.google.com/file/d/1AQVuYY_kPW5NQ9Z3i3nZZevw1S7xsrsz/vie)
 
 [Part Three](https://drive.google.com/file/d/1GXI_co-9gZFj4ZzhzjWNYzTMkV5VbXnv/view)
-</span>
+
 
 ## References
 ###### [Back to Table of Contents](#Table-of-Contents)
