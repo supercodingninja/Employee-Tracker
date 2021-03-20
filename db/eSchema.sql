@@ -1,11 +1,17 @@
--- -- Design the following database schema containing three tables:
+DROP DATABASE IF EXISTS eTrack_db;
 
--- ![Database Schema](Assets/schema.png)
+CREATE DATABASE eTrack_db;
+
+USE eTrack_db;
+-- -- Design the following database schema containing three tables (see schema.png):
 
 -- * **department**:
-
---   * **id** - INT PRIMARY KEY
---   * **name** - VARCHAR(30) to hold department name
+CREATE TABLE department(
+    --   * **id** - INT PRIMARY KEY
+    department_id INT PRIMARY KEY,
+    --   * **name** - VARCHAR(30) to hold department name
+    department_name VARCHAR(30),
+);
 
 -- * **role**:
 
