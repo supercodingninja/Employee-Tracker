@@ -60,14 +60,14 @@ const findEmp = async () => {
 
 const findMgr = async () => {
     
-    var mgr = await db.findMgr();
+    var mgmt = await db.findMgr();
     
-    // I needed another value for name property, because this is referencing the employee associated with the manager_id (see Employee Table in schema); so I chose by default, 'mgr' to avoid confusion. //
-    return mgr.map(({manager_id, mgr}) => {
+    // I needed another value for name property, because this is referencing the employee associated with the manager_id (see Employee Table in schema); so I chose by default, 'mgmt' to avoid confusion. //
+    return mgmt.map(({manager_id, mgr}) => {
        
         return {
            value: manager_id,
-           name: mgr
+           name: mgmt
        }
     })
 };
@@ -203,12 +203,26 @@ module.exports = {
         ]
     },
 
+    getDpt () {
+        return [dpt()]
+    },
+
+    getRoles () {
+        return [empRole()]
+    },
+
     // Places the manager onto the table. //
     renderMgr () {
-        return [someMgr()]
+        return [findMgr()]
     },
 
     // Change Manager. //
+    newMgr () {
+        return [
+            Mgr(),
+            emp()
+        ]
+    }
 
     // Still need to figure out delete. //
 };
