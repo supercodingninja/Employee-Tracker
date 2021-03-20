@@ -50,7 +50,7 @@ Created an awesome and generic ReadMe.md file; which can be utilize for future e
 
 ### Building Upon The Developed Code
 <h4>
-    <span align="left">Building My Schema 👇🏿</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <span align="left">Building My Schema 👇🏿</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <span align="right">Building My Seed 👇🏿</span>
 </h4>
 
@@ -61,13 +61,13 @@ Created an awesome and generic ReadMe.md file; which can be utilize for future e
 
 <br>
 
-<figcaption align="center">
+<div align="center">
     <ol><a href="https://drive.google.com/file/d/1mPa_gXlxk7pZr4Ks3kBNk9Atakoykmsp/view)">Building My Schema (Thought-flow) pt. 1 of 2</a></ol>
     <ol><a href="https://drive.google.com/file/d/145_rDjGIJZWTxObi5AFE6oSGq3sNgbEH/view)">Building My Schema (Thought-flow) pt. 2 of 2</a></ol>
     <ol><a href="https://drive.google.com/file/d/1f-RDGCSj9yTMibKaGBSLW9K10wY8RxpY/view">Developing The Seed.</a></ol>
     <ol><a href="https://drive.google.com/file/d/1AQVuYY_kPW5NQ9Z3i3nZZevw1S7xsrsz/view">Schema: Wait, what about my Decimal?!</a></ol>
     <ol><a href="https://drive.google.com/file/d/1GXI_co-9gZFj4ZzhzjWNYzTMkV5VbXnv/view">Putting It All, Together (The Schema and Seed).</a></ol>
-</figcaption>
+</div>
 
 ## References
 ###### [Back to Table of Contents](#Table-of-Contents)
