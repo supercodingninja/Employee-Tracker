@@ -1,28 +1,85 @@
 const myDB = require ('./config/orm.js'); // I NEED TO CHECK THIS THOUGHT, AND ROUTE. //
 
+
 // Declarations by functions. //
-// Employee. //
-const employee = () => {
+
+// Department Table. //
+const findDpt = async () => {
+            
+    var department = await db.seekTables('Departments');
+    
+    return department.map(({id, department_name}) => {
+    
+        return {
+            value: id,
+            name: department_name
+       }
+    })
+};
+
+// Roles Table //
+const findRole = async () => {
+    
+    var role = await db.seekTables('Roles');
+    
+    return role.map (
+        
+        ({role_id, title}) => {
+       
+            return {
+            value: role_id,
+            name: title,
+            }
+        }
+    )
+};
+
+// Employee Table. //
+const findEmp = async () => {
+    
+    var employee = await db.getAllTables('employee')
+    
+    var array = employee.map(
+        
+        ({id, first_name, last_name}) => {
+
+            return {
+                value: id,
+                name:`${first_name} ${last_name}`
+            }
+        }
+    )
+
+    array.push({
+        value: 'null',
+        name: `Employee not found.`
+    })
+
+    return array;
+};
+
+const findMgr = async () => {
+    
+    var mgr = await db.findMgr();
+    
+    // I needed another value for name property, because this is referencing the employee associated with the manager_id (see Employee Table in schema); so I chose by default, 'mgr' to avoid confusion. //
+    return mgr.map(({manager_id, mgr}) => {
+       
+        return {
+           value: manager_id,
+           name: mgr
+       }
+    })
+};
+
+// List of Employees. //
+const emp = () => {
     return {
         name:'Employee',
         type: 'list',
         message: 'Select an employee.',
-        choices: () => findEmployee ()
+        choices: () => findEmp ()
     }
-};
-
-// List of Roles. //
-const findRole = async() =>{
-    
-    var role = await db.seekTables('Roles');
-    
-    return role.map(({role_id, title}) => {
-       
-        return {
-           value: role_id,
-           name: title,
-       }
-    })
 };
 
 // Employee's Role. //
@@ -36,14 +93,26 @@ const empRole = () =>{
 };
 
 // Finding the employee's manager. //
-const findManager = () => {
+const Mgr = () => {
+    
     return {
         name:'management',
         type: 'list',
-        message: `Who is the employee's manager`,
-        choices: () => findEmployee ()
+        message: `Choose an employee to become a manager.`,
+        choices: () => findEmp ()
     }
-}
+};
+
+// Associating the department to the employee. //
+const dpt = () => {
+    return  {
+        name: 'id',
+        type: 'list',
+        message: 'Which department does the employee fall under?',
+        choices: () => findDpt ()
+    }
+};
+
 
 module.exports = {
     // CLI Initial Query. //
@@ -103,7 +172,43 @@ module.exports = {
 
             empRole(), // Use this declaration to find the role. //
             
-            findManager()
+            Mgr()
         ]
     },
+
+    // Role and Salary //
+    roleQ () {
+        return [
+            {
+                name: 'title',
+                type: 'input',
+                message: `What is the employee's role?` // Attempt to associate role with the salary. //
+            },
+        
+            {
+                name: 'salary',
+                type: 'input',
+                message: `What is the role's salary?`
+            },
+            
+            dpt()
+        ]
+    },
+
+    // Change employee's role. //
+    roleEmpQ () {
+        return [
+            empRole(),
+            emp()
+        ]
+    },
+
+    // Places the manager onto the table. //
+    renderMgr () {
+        return [someMgr()]
+    },
+
+    // Change Manager. //
+
+    // Still need to figure out delete. //
 };
