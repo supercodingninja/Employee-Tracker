@@ -59,10 +59,12 @@ Created an awesome and generic ReadMe.md file; which can be utilize for future e
     <img src="/assets/media/mySeed.png" alt="Building My Seed" align="right" height="45%" width="45%"/>
 </p>
 
-<span align="left">
-    <ol><a href="https://drive.google.com/file/d/1mPa_gXlxk7pZr4Ks3kBNk9Atakoykmsp/view)">Building My Schema (Thought-flow) pt. 1 of 2</a></ol>
-    <ol><a href="https://drive.google.com/file/d/145_rDjGIJZWTxObi5AFE6oSGq3sNgbEH/view)">Building My Schema (Thought-flow) pt. 2 of 2</a></ol>
-</span>
+<p>
+    <span align="left">
+        <ol><a href="https://drive.google.com/file/d/1mPa_gXlxk7pZr4Ks3kBNk9Atakoykmsp/view)">Building My Schema (Thought-flow) pt. 1 of 2</a></ol>
+        <ol><a href="https://drive.google.com/file/d/145_rDjGIJZWTxObi5AFE6oSGq3sNgbEH/view)">Building My Schema (Thought-flow) pt. 2 of 2</a></ol>
+    </span>
+</p>
 
 <span align="right">
     <ol><a href="https://drive.google.com/file/d/1f-RDGCSj9yTMibKaGBSLW9K10wY8RxpY/view">Developing The Seed.</a></ol>
