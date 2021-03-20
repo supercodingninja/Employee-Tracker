@@ -14,11 +14,16 @@ CREATE TABLE department(
 );
 
 -- * **role**:
-
---   * **id** - INT PRIMARY KEY
---   * **title** -  VARCHAR(30) to hold role title
---   * **salary** -  DECIMAL to hold role salary
---   * **department_id** -  INT to hold reference to department role belongs to
+CREATE TABLE role (
+    --   * **id** - INT PRIMARY KEY
+    role_id INT PRIMARY KEY,
+    --   * **title** -  VARCHAR(30) to hold role title
+    role_title VARCHAR(30),
+    --   * **salary** -  DECIMAL to hold role salary
+    role_salary DECIMAL
+    --   * **department_id** -  INT to hold reference to department role belongs to
+    department_id INT
+)
 
 -- * **employee**:
 
