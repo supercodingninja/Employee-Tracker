@@ -33,6 +33,45 @@ function init() {
             ]
         })
         
+        .then((res) => {
+
+            switch(res.action) {
+
+                case 'Add a department.':
+                    addDpt();
+                    break;
+
+                case 'Add a role.':
+                    addRole();
+                    break;
+
+                case 'Add an employee.':
+                    addEmp();
+                    break;
+
+                case 'View all departments.':
+                    viewDpts();
+                    break;
+        
+                case 'View all roles.':
+                    viewRoles();
+                    break;
+
+                case 'View all employees.':
+                    viewEmps();
+                    break;
+
+                case `Update an employee's role.`:
+                    updateRole()
+                    break;
+
+                default:
+                    connection.end();
+            }
+        });
 };
+
+
+
 
 init();
