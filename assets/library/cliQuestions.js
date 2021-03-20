@@ -1,3 +1,5 @@
+const inquirer = require('inquirer');
+const connect = require('./config/connect.js');
 const myDB = require ('./config/orm.js'); // I NEED TO CHECK THIS THOUGHT, AND ROUTE. //
 
 // Declarations by functions. //
@@ -35,7 +37,7 @@ const findRole = async () => {
 // Employee Table. //
 const findEmp = async () => {
     
-    var employee = await db.getAllTables('employee')
+    var employee = await db.seekTables('employee')
     
     var array = employee.map(
         
@@ -117,7 +119,7 @@ module.exports = {
     initApp () {
         return [{
             type: 'list',
-            name: 'action',
+            name: 'Task',
             message: 'Please choose a task.',
             choices: [
                 'Add an employee.',
@@ -238,7 +240,9 @@ module.exports = {
                 'Quit application; and do not save changes.'
             ]
         }
-    }
+    },
+    
+    initApp()
 };
 
 // I am using these CLI questions as a library of sorts; so I will need to create a function to my application.  I will do this in my app.js file. //
