@@ -13,7 +13,7 @@
 
 ## Repository Description
 ###### [Back to Table of Contents](#Table-of-Contents)
-We live in a busy world; and thriving businesses are busier.  As a developer, who has joined a new team, you may be expected to inspect code; which you have never seen before.  Rather than having a team member explain every line for you, you can dissect the code, yourself!  This saves many unnecessary questions for team members; and provides you credibility for when you do ask.  Part of being a good developer is staying with the trend.  Learning new code and approaches are part of your great experiences as a developer.  The better you become at Reverse Engineering Code, the stronger you become as a Developer; and such a skill can also make refactoring code less challenging.  This may even be the difference between staying on task(s), maintaining a job; or even eceiving a promotion.  Don't worry, You got this: "HELLO, WORLD!"
+...
 
 ## User Story
 ### As A Developer
@@ -27,7 +27,7 @@ We live in a busy world; and thriving businesses are busier.  As a developer, wh
 
 ## Usage Information
 ###### [Back to Table of Contents](#Table-of-Contents)
-This repository is a great way to understand nodeJS and express.  Feel free to use it as a template for projects (build upon it, and write your own code), non-profit organizations, academic clubs; and much more!  Not for commercial use, unless granted by the author.
+This repository is a great way to understand CLI, nodeJS and express, and MySQL.  Feel free to use it as a template for projects (build upon it, and write your own code), non-profit organizations, academic clubs; and much more!  Not for commercial use, unless granted by the author.
 
 ## Contribution Guidelines
 ###### [Back to Table of Contents](#Table-of-Contents)
