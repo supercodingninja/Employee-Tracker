@@ -1,7 +1,7 @@
+'use strict';
+
 const inquirer = require('inquirer');
-const connect = require('./config/connect.js');
-const myDB = require('./db');
-const printTable = require('console.table');
+const connect = require('./config/connect');
 const mysql = require('mysql');
 
 function init() {

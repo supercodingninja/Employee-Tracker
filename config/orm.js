@@ -1,8 +1,8 @@
 const connection = require('./connect.js');
-const app = require('../app.js');
+const app = require('../app');
 const {findDpt, findRole, findEmp} = require('../assets/library/cliQuestions.js');
 
-const MySQL = require('string');
+const mysql = require('string');
 
 module.exports = {
     
