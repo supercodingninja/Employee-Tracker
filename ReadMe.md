@@ -13,17 +13,67 @@
 
 ## Repository Description
 ###### [Back to Table of Contents](#Table-of-Contents)
-...
+Developers are often tasked with creating interfaces, which makes it easy for any non-developer to view, and even interact with the given information stored in a database.  Often, such an interface is known as a **C**ontent **M**anagement **S**ystem (CMS).  This repository shows an attempt to architect, and building a solution for managing a company's employees(with node, inquirer, and MySQL).
 
 ## User Story
-### As A Developer
 ###### [Back to Table of Contents](#Table-of-Contents)
-1.   
-2.   
-3.   
-4.   
-5.   
-6.   
+        
+### As A Business Owner
+    1.  As a business owner, I need a developer to build a command-line application, that at a minimum, will allow the user to:
+
+        * Add departments, roles, employees
+
+        * View departments, roles, employees
+
+        * Update employee roles
+    2.  I would like to update an employee's manager(s).
+    3.  I would like to view employees by their manager(s).
+    4.  I would like to delete departments, roles, and employees.
+    5.  I would like to view the total utilized budget of a department -- ie the combined salaries of all employees in that department.
+    6.  In summation, as a business owner, I want to be able to view and manage the departments, roles, and employees in my company, so that I can organize and plan my business.
+
+### As A Developer
+    1.  Design the following database schema containing three tables:
+
+![Database Schema](Assets/schema.png)
+
+            A.  * **department**:
+
+                    * **id** - INT PRIMARY KEY
+                    * **name** - VARCHAR(30) to hold department name
+
+            B.  * **role**:
+
+                    * **id** - INT PRIMARY KEY
+                    * **title** -  VARCHAR(30) to hold role title
+                    * **salary** -  DECIMAL to hold role salary
+                    * **department_id** -  INT to hold reference to department role belongs to
+
+            C.  * **employee**:
+
+                    * **id** - INT PRIMARY KEY
+                    * **first_name** - VARCHAR(30) to hold employee first name
+                    * **last_name** - VARCHAR(30) to hold employee last name
+                    * **role_id** - INT to hold reference to role employee has
+                    * **manager_id** - INT to hold reference to another employee that manages the employee being Created. This field may be null if the employee has no manager
+  
+    2.  Build a command-line application that at a minimum allows the user to:
+
+            * Add departments, roles, employees
+
+            * View departments, roles, employees
+
+            * Update employee roles
+
+    3.  Bonus points if you're able to:
+
+            * Update employee managers
+
+            * View employees by manager
+
+            * Delete departments, roles, and employees
+
+            * View the total utilized budget of a department -- ie the combined salaries of all employees in that department
 
 ## Usage Information
 ###### [Back to Table of Contents](#Table-of-Contents)
