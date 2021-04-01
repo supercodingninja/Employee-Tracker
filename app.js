@@ -1,8 +1,8 @@
 'use strict';
 
 const inquirer = require('inquirer');
-const connect = require('./config/connect');
-const mysql = require('mysql');
+const connection = require('./config/connect');
+const db = require('./db');
 
 function init() {
 
@@ -35,7 +35,7 @@ function init() {
         
         .then((res) => {
 
-            switch(res.action) {
+            switch(res.Task) {
 
                 case 'Add a department.':
                     addDpt();
