@@ -7,6 +7,7 @@
 * [User Story](#User)
 * [Usage Information](#Usage)
 * [Contribution Guidelines](#Contribution)
+* [Overview](#Overview)
 * [References](#Ref)
 * [Acknowledgements](#Ack)
 * [Repositiory End-Goal Criterea](#Criterea)
@@ -93,7 +94,7 @@ I hope you enjoy this repository, and the application's link, given above and be
 
 ## Overview: What We Accomplished!
 ###### Workflow [Back to Table of Contents](#Table-of-Contents)
-Created an awesome and generic ReadMe.md file; which can be utilize for future endeavors!  I hope you enjoy this repository, and the application's link, given above and below (I love developing new projects).  Please feel free to fork and even collaborate with me on this awesome repository!  Thank you for viewing! - Frederick Thomas, [Super Coding Ninja™](https://github.com/supercodingninja)
+Architect and built solution for managing a company's employees (using node, inquirer, and MySQL).; which can be utilize for future endeavors!  I hope you enjoy this repository, and the application's link, given above and below (I love developing new projects).  Please feel free to fork and even collaborate with me on this awesome repository!  Thank you for viewing! - Frederick Thomas, [Super Coding Ninja™](https://github.com/supercodingninja)
 
 
 ### Media
@@ -101,7 +102,7 @@ Created an awesome and generic ReadMe.md file; which can be utilize for future e
 
 ### Building Upon The Developed Code
 <h4>
-    <span align="left">(VIDEO) Building My Schema 👇🏿</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <span align="left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(VIDEO) Building My Schema 👇🏿</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <span align="right">(VIDEO) Building My Seed 👇🏿</span>
 </h4>
 
@@ -137,6 +138,7 @@ This is a book about JavaScript, programming, and digital wonders. Read it onlin
 ###### [Back to Table of Contents](#Table-of-Contents)
 
 ### Peer Code Review
+I would like to thank my class peers, all of the Teacher Assistants, my tutor, my Student Success Manager; and my Instructor.
 
 CodeBase provided by [University of Washington](https://www.pce.uw.edu/), and [Trilogy Education](https://www.trilogyed.com/) (a 2U, Inc. brand),  in coorelation to their Seattle Partnership [UW Coding Bootcamp](https://bootcamp.uw.edu/).
 
