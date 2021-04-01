@@ -1,56 +1,35 @@
-const connection = require('./connect.js');
-const app = require('../app');
 const {findDpt, findRole, findEmp} = require('../assets/library/cliQuestions.js');
-
-const mysql = require('string');
+const connect = require('./connect.js');
+const SQL = require('string');
 
 module.exports = {
     
     findDpt(results) {
-        return connection.query(
-            'INSERT INTO department SET ?', results
-        );
+        return connect.query(SQL, 'INSERT INTO department SET ?', results);
     },
 
     findRole(results) {
-        return connection.query(
-            'INSERT INTO role SET ?', results
-        );
+        return connect.query(SQL, 'INSERT INTO role SET ?', results);
     },
 
     findEmp(results) {
-        return connection.query(
-            'INSERT INTO employee SET ?', results
-            );
+        return connect.query(SQL, 'INSERT INTO employee SET ?', results);
     },
 
     seeDpts() {
-        return connection.query('SELECT id, name AS department FROM department');
+        return connect.query('SELECT id, name AS department FROM department', results);
     },
 
     seeRoles() {
-        return connection.query(SQL
-            `SELECT id,
-            title,
-            salary, department.name`);
+        return connect.query(SQL, `SELECT id, title, salary, department.name`, results);
     },
 
     seeEmps() {
-        return connection.query(SQL
-            `SELECT id, 
-            first_name,
-            last_name,
-            title,
-            salary,`);
+        return connect.query(SQL, `SELECT id, first_name, last_name, title, salary,`, results);
     },
 
     updateRole(results) {
-        return connection.query('UPDATE employee SET ? WHERE ?',
-        [
-            {id: results.id},
-            
-            {id: results.role_id}
-        ])
+        return connect.query(SQl, 'UPDATE employee SET ? WHERE ?', [{id: results.id}, {id: results.role_id}])
     }
 };
 
@@ -67,5 +46,3 @@ seeRoles();
 seeEmps();
 
 updateRole(results);
-
-export default seekTables;

@@ -1,12 +1,10 @@
-const inquirer = require('inquirer');
-const connect = require('./config/connect.js');
-const myDB = require ('./config/orm.js'); // I NEED TO CHECK THIS THOUGHT, AND ROUTE. //
+const orm = require ('./config/orm.js'); // I NEED TO CHECK THIS THOUGHT, AND ROUTE. //
 
 // Declarations by functions. //
 // Department Table. //
 const findDpt = async () => {
             
-    var department = await db.seekTables('Departments');
+    var department = await orm.seekTables('Departments');
     
     return department.map(({id, department_name}) => {
     
@@ -20,7 +18,7 @@ const findDpt = async () => {
 // Roles Table //
 const findRole = async () => {
     
-    var role = await db.seekTables('Roles');
+    var role = await orm.seekTables('Roles');
     
     return role.map (
         
@@ -37,7 +35,7 @@ const findRole = async () => {
 // Employee Table. //
 const findEmp = async () => {
     
-    var employee = await db.seekTables('employee')
+    var employee = await orm.seekTables('employee')
     
     var array = employee.map(
         
@@ -60,7 +58,7 @@ const findEmp = async () => {
 
 const findMgr = async () => {
     
-    var mgmt = await db.findMgr();
+    var mgmt = await orm.findMgr();
     
     // I needed another value for name property, because this is referencing the employee associated with the manager_id (see Employee Table in schema); so I chose by default, 'mgmt' to avoid confusion. //
     return mgmt.map(({manager_id, mgr}) => {

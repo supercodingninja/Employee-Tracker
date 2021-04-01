@@ -2,7 +2,7 @@
 
 const inquirer = require('inquirer');
 const connection = require('./config/connect');
-const db = require('./db');
+const orm = require('./config/orm');
 
 function init() {
 
@@ -83,7 +83,7 @@ function addDpt() {
         )
         
         .then((results) => {
-            db.insertDepartment(results);
+            orm.insertDepartment(results);
             console.log('Yourselection is added.');
             init();
         });
@@ -93,7 +93,7 @@ function addDpt() {
 // Add roles
 function addRole() {
 
-    db
+    orm
         .findDpt()
 
         .then((departments) => {
@@ -134,7 +134,7 @@ function addRole() {
                         salary: results.salary,
                         department_ID: results.department_id
                     }
-                    db.insertRole(newRole);
+                    orm.insertRole(newRole);
                     console.log('The role has been added.');
                     init();
 
@@ -147,7 +147,7 @@ function addRole() {
 
 function addEmp() {
 
-    db
+    orm
         .findRoles()
         .then((roles) => {
 
@@ -156,7 +156,7 @@ function addEmp() {
                 name: role.title,
             }));
 
-        db
+        orm
             .findEmps()
             .then((managers) => {
 
@@ -198,7 +198,7 @@ function addEmp() {
                     role_id: results.role_id,
                     manager_id: results.manager_id
                 }
-                db.insertEmployee(newEmployee);
+                orm.insertEmployee(newEmployee);
                 console.log('The new employee has been added.');
                 init();
     
@@ -212,7 +212,7 @@ function addEmp() {
 // View all departments
 function viewDepartments() {
 
-    db
+    orm
         .getDepartments()
         .then((departments) => {
             console.table(departments);
@@ -224,7 +224,7 @@ function viewDepartments() {
 // View all roles
 function viewRoles() {
 
-    db
+    orm
         .getRoles()
         .then((roles) => {
             console.table(roles);
@@ -235,7 +235,7 @@ function viewRoles() {
 
 function viewEmployees() {
 
-    db
+    orm
         .findEmps()
         .then((employees) => {
             console.table(employees);
@@ -247,7 +247,7 @@ function viewEmployees() {
 
 function updateRole() {
 
-    db
+    orm
         .findRoles()
         .then((roles) => {
 
@@ -256,7 +256,7 @@ function updateRole() {
                 name: title
             }));
 
-        db
+        orm
             .findEmps()
             .then((employees) => {
 
@@ -281,7 +281,7 @@ function updateRole() {
                 }
             ]).then((results) => {
 
-                db.updateEmployeeRole(results);
+                orm.updateEmployeeRole(results);
                 console.log('Role updated.')
                 init();
             });
