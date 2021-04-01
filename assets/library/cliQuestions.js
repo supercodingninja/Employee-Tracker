@@ -15,6 +15,8 @@ const findDpt = async () => {
     })
 };
 
+// I THINK I NEED AN addEmp (){...};  I will check. //  
+
 // Roles Table //
 const findRole = async () => {
     
