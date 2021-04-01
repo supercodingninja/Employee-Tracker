@@ -21,11 +21,12 @@ Developers are often tasked with creating interfaces, which makes it easy for an
 ### As A Business Owner
     1.  As a business owner, I need a developer to build a command-line application, that at a minimum, will allow the user to:
 
-        * Add departments, roles, employees
+            * Add departments, roles, employees
 
-        * View departments, roles, employees
+            * View departments, roles, employees
 
-        * Update employee roles
+            * Update employee roles
+
     2.  I would like to update an employee's manager(s).
     3.  I would like to view employees by their manager(s).
     4.  I would like to delete departments, roles, and employees.
@@ -100,8 +101,8 @@ Created an awesome and generic ReadMe.md file; which can be utilize for future e
 
 ### Building Upon The Developed Code
 <h4>
-    <span align="left">Building My Schema 👇🏿</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <span align="right">Building My Seed 👇🏿</span>
+    <span align="left">(VIDEO) Building My Schema 👇🏿</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <span align="right">(VIDEO) Building My Seed 👇🏿</span>
 </h4>
 
 <p float="center">
