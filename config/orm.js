@@ -1,37 +1,28 @@
-const {findDpt, findRole, findEmp} = require('../assets/library/cliQuestions.js');
-const connect = require('./connect.js');
-const SQL = require('string');
+import { findDpt, findRole, findEmp } from '../assets/library/cliQuestions.js';
+import { query } from './connect.js';
+import SQL from 'string';
 
-module.exports = {
-    
-    findDpt(results) {
-        return connect.query(SQL, 'INSERT INTO department SET ?', results);
-    },
-
-    findRole(results) {
-        return connect.query(SQL, 'INSERT INTO role SET ?', results);
-    },
-
-    findEmp(results) {
-        return connect.query(SQL, 'INSERT INTO employee SET ?', results);
-    },
-
-    seeDpts() {
-        return connect.query('SELECT id, name AS department FROM department', results);
-    },
-
-    seeRoles() {
-        return connect.query(SQL, `SELECT id, title, salary, department.name`, results);
-    },
-
-    seeEmps() {
-        return connect.query(SQL, `SELECT id, first_name, last_name, title, salary,`, results);
-    },
-
-    updateRole(results) {
-        return connect.query(SQl, 'UPDATE employee SET ? WHERE ?', [{id: results.id}, {id: results.role_id}])
-    }
-};
+export function findDpt(results) {
+    return query(SQL, 'INSERT INTO department SET ?', results);
+}
+export function findRole(results) {
+    return query(SQL, 'INSERT INTO role SET ?', results);
+}
+export function findEmp(results) {
+    return query(SQL, 'INSERT INTO employee SET ?', results);
+}
+export function seeDpts() {
+    return query('SELECT id, name AS department FROM department', results);
+}
+export function seeRoles() {
+    return query(SQL, `SELECT id, title, salary, department.name`, results);
+}
+export function seeEmps() {
+    return query(SQL, `SELECT id, first_name, last_name, title, salary,`, results);
+}
+export function updateRole(results) {
+    return query(SQl, 'UPDATE employee SET ? WHERE ?', [{ id: results.id }, { id: results.role_id }]);
+}
 
 findDpt();
 
