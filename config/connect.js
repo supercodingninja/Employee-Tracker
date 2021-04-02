@@ -11,15 +11,15 @@ const connect = mysql.createConnection({
     database: 'eTrack_db'
 });
 
-connection.connect((err)=>{
+connect.connect((err)=>{
     
     if(err) throw err;
     
-    console.log('This is my connection to MySQL, by id.' + connection.threadId);
+    console.log('This is my connection to MySQL, by id.' + connect.threadId);
 });
 
 
 // Ref. https://stackoverflow.com/questions/54730641/node-js-how-to-apply-util-promisify-to-mysql-pool-in-its-simplest-way //
-connection.query = util.promisify(connection.query);
+connect.query = util.promisify(connect.query);
 
 module.exports = connect;
