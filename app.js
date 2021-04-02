@@ -1,13 +1,12 @@
 'use strict';
 
-const inquirer = require('inquirer');
-const connection = require('./config/connect');
-const orm = require('./config/orm');
+import { prompt } from 'inquirer';
+import { end } from './config/connect';
+import { insertDepartment, findDpt, insertRole, findRoles, findEmps, insertEmployee, getDepartments, getRoles, updateEmployeeRole } from './config/orm';
 
 function init() {
 
-    inquirer
-        .prompt({
+    prompt({
             type: 'list',
             name: 'Task',
             message: 'Please choose a task.',
@@ -66,15 +65,14 @@ function init() {
                     break;
 
                 default:
-                    connection.end();
+                    end();
             }
         });
 };
 
 
 function addDpt() {
-    inquirer
-        .prompt(
+    prompt(
             {
                 message: 'Please select a department.',
                 type: 'input',
@@ -83,7 +81,7 @@ function addDpt() {
         )
         
         .then((results) => {
-            orm.insertDepartment(results);
+            insertDepartment(results);
             console.log('Yourselection is added.');
             init();
         });
@@ -93,8 +91,7 @@ function addDpt() {
 // Add roles
 function addRole() {
 
-    orm
-        .findDpt()
+    findDpt()
 
         .then((departments) => {
             const departmentChoices = departments.map((department) => ({
@@ -102,8 +99,7 @@ function addRole() {
                 name: department.department
             }))
 
-            inquirer
-                .prompt([
+            prompt([
                     {
                         message: `What is the role?`,
                         type: 'input',
@@ -134,7 +130,7 @@ function addRole() {
                         salary: results.salary,
                         department_ID: results.department_id
                     }
-                    orm.insertRole(newRole);
+                    insertRole(newRole);
                     console.log('The role has been added.');
                     init();
 
@@ -147,8 +143,7 @@ function addRole() {
 
 function addEmp() {
 
-    orm
-        .findRoles()
+    findRoles()
         .then((roles) => {
 
             const roleChoices = roles.map((role) => ({
@@ -156,8 +151,7 @@ function addEmp() {
                 name: role.title,
             }));
 
-        orm
-            .findEmps()
+        findEmps()
             .then((managers) => {
 
                 const managerChoices = managers.map((manager) => ({
@@ -165,8 +159,7 @@ function addEmp() {
                     name: manager.first_name + ' ' + manager.last_name
                 }))
 
-        inquirer
-            .prompt([
+        prompt([
                 {
                     message: `What is the employee's first name?`,
                     type: 'input',
@@ -198,7 +191,7 @@ function addEmp() {
                     role_id: results.role_id,
                     manager_id: results.manager_id
                 }
-                orm.insertEmployee(newEmployee);
+                insertEmployee(newEmployee);
                 console.log('The new employee has been added.');
                 init();
     
@@ -212,8 +205,7 @@ function addEmp() {
 // View all departments
 function viewDepartments() {
 
-    orm
-        .getDepartments()
+    getDepartments()
         .then((departments) => {
             console.table(departments);
             init();
@@ -224,8 +216,7 @@ function viewDepartments() {
 // View all roles
 function viewRoles() {
 
-    orm
-        .getRoles()
+    getRoles()
         .then((roles) => {
             console.table(roles);
             init();
@@ -235,8 +226,7 @@ function viewRoles() {
 
 function viewEmployees() {
 
-    orm
-        .findEmps()
+    findEmps()
         .then((employees) => {
             console.table(employees);
             init();
@@ -247,8 +237,7 @@ function viewEmployees() {
 
 function updateRole() {
 
-    orm
-        .findRoles()
+    findRoles()
         .then((roles) => {
 
             const roleChoices = roles.map((role) => ({
@@ -256,8 +245,7 @@ function updateRole() {
                 name: title
             }));
 
-        orm
-            .findEmps()
+        findEmps()
             .then((employees) => {
 
                 const employeeChoices = employees.map((employee) => ({
@@ -265,8 +253,7 @@ function updateRole() {
                     name: first_name + ' ' + last_name
                 }));
 
-        inquirer
-            .prompt([
+        prompt([
                 {
                     message: 'Which employee do you want to update?',
                     type: 'list',
@@ -281,7 +268,7 @@ function updateRole() {
                 }
             ]).then((results) => {
 
-                orm.updateEmployeeRole(results);
+                updateEmployeeRole(results);
                 console.log('Role updated.')
                 init();
             });

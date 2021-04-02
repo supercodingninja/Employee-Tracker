@@ -2,7 +2,7 @@ const orm = require ('./config/orm.js'); // I NEED TO CHECK THIS THOUGHT, AND RO
 
 // Declarations by functions. //
 // Department Table. //
-const findDpt = async () => {
+export const findDpt = async () => {
             
     var department = await orm.seekTables('Departments');
     
@@ -18,7 +18,7 @@ const findDpt = async () => {
 // I THINK I NEED AN addEmp (){...};  I will check. //  
 
 // Roles Table //
-const findRole = async () => {
+export const findRole = async () => {
     
     var role = await orm.seekTables('Roles');
     
@@ -35,7 +35,7 @@ const findRole = async () => {
 };
 
 // Employee Table. //
-const findEmp = async () => {
+export const findEmp = async () => {
     
     var employee = await orm.seekTables('employee')
     
@@ -58,7 +58,7 @@ const findEmp = async () => {
     return array;
 };
 
-const findMgr = async () => {
+export const findMgr = async () => {
     
     var mgmt = await orm.findMgr();
     
@@ -73,7 +73,7 @@ const findMgr = async () => {
 };
 
 // List of Employees. //
-const emp = () => {
+export const emp = () => {
     return {
         name:'Employee',
         type: 'list',
@@ -83,7 +83,7 @@ const emp = () => {
 };
 
 // Employee's Role. //
-const empRole = () =>{
+export const empRole = () =>{
     return {
         name: 'role_id',
         type: 'list',
@@ -93,7 +93,7 @@ const empRole = () =>{
 };
 
 // Finding the employee's manager. //
-const Mgr = () => {
+export const Mgr = () => {
     
     return {
         name:'management',
@@ -104,7 +104,7 @@ const Mgr = () => {
 };
 
 // Associating the department to the employee. //
-const dpt = () => {
+export const dpt = () => {
     return  {
         name: 'id',
         type: 'list',
@@ -241,8 +241,7 @@ module.exports = {
             ]
         }
     },
-    
-    initApp()
 };
 
 // I am using these CLI questions as a library of sorts; so I will need to create a function to my application.  I will do this in my app.js file. //
+
