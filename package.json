@@ -1,0 +1,24 @@
+{
+  "name": "Employee-Tracker",
+  "version": "1.0.0",
+  "description": "## Table of Contents * [Repository Description](#Repository) * [User Story](#User) * [Usage Information](#Usage) * [Contribution Guidelines](#Contribution) * [Overview](#Overview) * [References](#Ref) * [Acknowledgements](#Ack) * [Repositiory End-Goal Criterea](#Criterea)",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/supercodingninja/Employee-Tracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/supercodingninja/Employee-Tracker/issues"
+  },
+  "homepage": "https://github.com/supercodingninja/Employee-Tracker#readme",
+  "dependencies": {
+    "console-table-printer": "^2.8.2",
+    "utils": "^0.3.1"
+  }
+}

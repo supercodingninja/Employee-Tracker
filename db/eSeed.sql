@@ -2,39 +2,39 @@
 USE eTrack_db;
 
 -- List of Departments --
-INSERT INTO Departments (id, department_name) VALUES
-    (13,'Accounting'),
-    (3, 'Business Strategy & Development'),
-    (5, 'Design'),
-    (1, 'Executive'),
-    (4,' Facilities'),
-    (2, 'Finance'),
-    (9, 'Human Resources'),
-    (8, 'Internal Affairs'),
-    (7, 'International Business'),
-    (6, 'Legal'),
-    (10, 'Marketing & Communications'),
-    (11, 'Operations & Production'),
-    (5, 'Public Relations'),
-    (12, 'Purchase (Internal)'),
-    (14, 'Recruiting'),
-    (15, 'Research & Development'),
-    (16, 'Sales, Services & Support'),
+INSERT INTO Department ( department_name) VALUES
+    ('Accounting'),
+    ('Business Strategy & Development'),
+    ( 'Design'),
+    ( 'Executive'),
+    (' Facilities'),
+    ( 'Finance'),
+    ( 'Human Resources'),
+    ( 'Internal Affairs'),
+    ( 'International Business'),
+    ( 'Legal'),
+    ( 'Marketing & Communications'),
+    ( 'Operations & Production'),
+    ( 'Public Relations'),
+    ( 'Purchase (Internal)'),
+    ( 'Recruiting'),
+    ( 'Research & Development'),
+    ( 'Sales, Services & Support');
 
 
 -- List of Roles --
-INSERT INTO Roles (id, title, salary, departnment_id) VALUES
-    (1,'Fiduciary Accountant', 112000, 1),
-    (2,'Financial Accountant', 91000, 2),
-    (3,'Forensic Accountant', 86267, 8),
-    (4,'Managerial Accountant', 75000, 13),
-    (5,'Cost Accountant', 63000, 13)
+INSERT INTO Role (title, salary, department_id) VALUES
+    ('Fiduciary Accountant', 112000, 1),
+    ('Financial Accountant', 91000, 2),
+    ('Forensic Accountant', 86267, 8),
+    ('Managerial Accountant', 75000, 13),
+    ('Cost Accountant', 63000, 13);
 
 
 -- List of Employees Names --
-INSERT INTO Employee (id, first_name, last_name, role_id, manager_id) VALUES
-    (1,'Dwayne', 'Thomas', 1, 1),
-    (2,'Anjelah', 'Johnson-Reyes', 1, 2),
-    (3,'Jeri', 'Ryan', 1, Null),
-    (4,'Bruno', 'Mars', 1, 3),
-    (5,'ZZ', 'Top', 1, Null)
+INSERT INTO Employee ( first_name, last_name, role_id, manager_id) VALUES
+    ('Dwayne', 'Thomas', 1, 1),
+    ('Anjelah', 'Johnson-Reyes', 1, 2),
+    ('Jeri', 'Ryan', 1, Null),
+    ('Bruno', 'Mars', 1, 3),
+    ('ZZ', 'Top', 1, Null)

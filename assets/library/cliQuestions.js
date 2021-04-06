@@ -1,8 +1,7 @@
-const orm = require ('./config/orm.js'); // I NEED TO CHECK THIS THOUGHT, AND ROUTE. //
-
+const orm = require ('../../config/orm')
 // Declarations by functions. //
 // Department Table. //
-export const findDpt = async () => {
+module.exports = findDpt = async () => {
             
     var department = await orm.seekTables('Departments');
     
@@ -18,7 +17,7 @@ export const findDpt = async () => {
 // I THINK I NEED AN addEmp (){...};  I will check. //  
 
 // Roles Table //
-export const findRole = async () => {
+module.exports = findRole = async () => {
     
     var role = await orm.seekTables('Roles');
     
@@ -35,7 +34,7 @@ export const findRole = async () => {
 };
 
 // Employee Table. //
-export const findEmp = async () => {
+module.exports = findEmp = async () => {
     
     var employee = await orm.seekTables('employee')
     
@@ -58,7 +57,7 @@ export const findEmp = async () => {
     return array;
 };
 
-export const findMgr = async () => {
+module.exports = findMgr = async () => {
     
     var mgmt = await orm.findMgr();
     
@@ -73,7 +72,7 @@ export const findMgr = async () => {
 };
 
 // List of Employees. //
-export const emp = () => {
+module.exports = emp = () => {
     return {
         name:'Employee',
         type: 'list',
@@ -83,7 +82,7 @@ export const emp = () => {
 };
 
 // Employee's Role. //
-export const empRole = () =>{
+module.exports = empRole = () =>{
     return {
         name: 'role_id',
         type: 'list',
@@ -93,7 +92,7 @@ export const empRole = () =>{
 };
 
 // Finding the employee's manager. //
-export const Mgr = () => {
+module.exports = Mgr = () => {
     
     return {
         name:'management',
@@ -104,7 +103,7 @@ export const Mgr = () => {
 };
 
 // Associating the department to the employee. //
-export const dpt = () => {
+module.exports = dpt = () => {
     return  {
         name: 'id',
         type: 'list',
