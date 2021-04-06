@@ -7,6 +7,7 @@
 * [User Story](#User)
 * [Usage Information](#Usage)
 * [Contribution Guidelines](#Contribution)
+* [Functionality](#Functionality)
 * [Overview](#Overview)
 * [References](#Ref)
 * [Acknowledgements](#Ack)
@@ -92,8 +93,19 @@ I hope you enjoy this repository, and the application's link, given above and be
 3.  Run node app.js
 
 
+## Functionality
+###### [Back to Table of Contents](#Table-of-Contents)
+
+### [👉🏿CLICK HERE TO SEE VIDEO FUNCTIONALITY👈🏿](https://drive.google.com/file/d/1HwFEDjPvveDUOngH_O3HiffHMF7984Ve/view)
+
+<img src="./assets/media/Screen Shot 2021-04-05 at 11.50.14 PM.png">
+<img src="./assets/media/Screen Shot 2021-04-05 at 11.50.58 PM.png">
+<img src="./assets/media/Screen Shot 2021-04-05 at 11.51.08 PM.png">
+<img src="./assets/media/Screen Shot 2021-04-05 at 11.52.14 PM.png">
+
+
 ## Overview: What We Accomplished!
-###### Workflow [Back to Table of Contents](#Table-of-Contents)
+###### [Back to Table of Contents](#Table-of-Contents)
 Architect and built solution for managing a company's employees (using node, inquirer, and MySQL).; which can be utilize for future endeavors!  I hope you enjoy this repository, and the application's link, given above and below (I love developing new projects).  Please feel free to fork and even collaborate with me on this awesome repository!  Thank you for viewing! - Frederick Thomas, [Super Coding Ninja™](https://github.com/supercodingninja)
 
 
@@ -102,8 +114,8 @@ Architect and built solution for managing a company's employees (using node, inq
 
 ### Building Upon The Developed Code
 <h4>
-    <span align="left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(VIDEO) Building My Schema 👇🏿</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <span align="right">(VIDEO) Building My Seed 👇🏿</span>
+    <span align="left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(VIDEO LINKS BELOW) Building My Schema 👇🏿</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <span align="right">(VIDEO LINKS BELOW) Building My Seed 👇🏿</span>
 </h4>
 
 <p float="center">

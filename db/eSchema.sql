@@ -14,7 +14,7 @@ CREATE TABLE department(
     department_name VARCHAR(100)
 );
 
--- * **role** --
+-- * **role** -- <-  <- 
 CREATE TABLE role (
     --   * **id** - INT PRIMARY KEY --
     id INT auto_increment PRIMARY KEY,
