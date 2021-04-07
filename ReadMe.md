@@ -1,4 +1,10 @@
-# Employee-Tracker 
+<h1 align="center">Employee-Tracker</h1> 
+
+<figcaption align="center">👇🏿Click the .gif, below👇🏿 to view a video demonstation.</figcaption>
+
+<a href="https://drive.google.com/file/d/1HwFEDjPvveDUOngH_O3HiffHMF7984Ve/view"><img src="./assets/media/Screen Shot 2021-04-05 at 11.50.14 PM.png" width="620" height="380" align="center"></a>
+
+
 ##### ![Badge](https://img.shields.io/badge/GitHub-Pro%20%20%20-blue)&nbsp;![Badge](https://img.shields.io/badge/GitHub-Arctic%20Code%20Vault%20Contributor-orange)&nbsp;<a href="https://github.com/supercodingninja" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg" alt="discoverfrederickthomas" height="30" width="30" /></a>&nbsp;<a href="https://linkedin.com/in/discoverfrederickthomas" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="discoverfrederickthomas" height="30" width="30"/></a>&nbsp;<a href="mailto:SuperCodingNinja@outlook.com" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/microsoftoutlook.svg" alt="supercodingninja" height="30" width="30"/></a>&nbsp;<a href="https://www.youtube.com/playlist?list=PLnxMwdxjTgTEN-xRODXLJ6sI5hgz1lFbu" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/youtube.svg" alt="# discoverfrederickthomas" height="30" width="30"/></a>&nbsp;<a href="https://fb.com/supercodingninja" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/facebook.svg" alt="supercodingninja" height="30" width="30"/></a>&nbsp;<a href="https://codepen.io/supercodingninja" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/codepen.svg" alt="supercodingninja" height="30" width="30"/></a>
 #### <i>Employee-Tracker</i> © 2021 All Rights Reserved.  MIT All material must be cited or credited, when using material (free to use).
 
@@ -96,9 +102,7 @@ I hope you enjoy this repository, and the application's link, given above and be
 ## Functionality
 ###### [Back to Table of Contents](#Table-of-Contents)
 
-### [👉🏿CLICK HERE TO SEE VIDEO FUNCTIONALITY👈🏿](https://drive.google.com/file/d/1HwFEDjPvveDUOngH_O3HiffHMF7984Ve/view)
 
-<img src="./assets/media/Screen Shot 2021-04-05 at 11.50.14 PM.png">
 <img src="./assets/media/Screen Shot 2021-04-05 at 11.50.58 PM.png">
 <img src="./assets/media/Screen Shot 2021-04-05 at 11.51.08 PM.png">
 <img src="./assets/media/Screen Shot 2021-04-05 at 11.52.14 PM.png">
@@ -152,7 +156,8 @@ This is a book about JavaScript, programming, and digital wonders. Read it onlin
 ### Peer Code Review
 I would like to thank my class peers, all of the Teacher Assistants, my tutor, my Student Success Manager; and my Instructor.
 
-CodeBase provided by [University of Washington](https://www.pce.uw.edu/), and [Trilogy Education](https://www.trilogyed.com/) (a 2U, Inc. brand),  in coorelation to their Seattle Partnership [UW Coding Bootcamp](https://bootcamp.uw.edu/).
+### CodeBase
+Codebase provided by [University of Washington](https://www.pce.uw.edu/), and [Trilogy Education](https://www.trilogyed.com/) (a 2U, Inc. brand),  in coorelation to their Seattle Partnership [UW Coding Bootcamp](https://bootcamp.uw.edu/).
 
 ## Repositiory End-Goal Criterea
 ###### [Back to Table of Contents](#Table-of-Contents)
